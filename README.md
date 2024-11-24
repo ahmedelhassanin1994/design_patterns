@@ -39,3 +39,11 @@ is a creational design pattern that provides a way to create objects without spe
 Use Cases:
 * Creating objects based on runtime conditions.
 * Managing a family of related objects.
+
+
+# Prototype Design Pattern : 
+is a creational pattern that creates new objects by cloning an existing object, known as the prototype. This is useful when creating an object is costly or complex, and you want to avoid reinitializing the entire object.
+
+Use Cases:
+* Copying objects with expensive initialization (e.g., large data structures).
+*Situations where object properties need to be copied.
