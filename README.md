@@ -46,4 +46,4 @@ is a creational pattern that creates new objects by cloning an existing object, 
 
 Use Cases:
 * Copying objects with expensive initialization (e.g., large data structures).
-*Situations where object properties need to be copied.
+* Situations where object properties need to be copied.
