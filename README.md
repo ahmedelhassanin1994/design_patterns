@@ -30,3 +30,12 @@ is a structural pattern that allows incompatible interfaces to work together. It
 Use Cases:
 * Integrating legacy systems with modern interfaces.
 * Supporting multiple third-party libraries.
+
+
+# Factory Design Pattern : 
+is a creational design pattern that provides a way to create objects without specifying the exact class of the object being created. Instead, a factory method or class handles object instantiation.
+
+
+Use Cases:
+* Creating objects based on runtime conditions.
+* Managing a family of related objects.
