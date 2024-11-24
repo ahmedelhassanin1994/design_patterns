@@ -22,3 +22,11 @@ is a creational pattern that provides a way to create families of related or dep
 Use Cases:
 * Building UI libraries for multiple platforms (e.g., macOS, Windows).
 * Managing families of related objects.
+
+
+# Adapter Design Pattern : 
+is a structural pattern that allows incompatible interfaces to work together. It acts as a bridge between two objects by converting the interface of one object into an interface expected by the client.
+
+Use Cases:
+* Integrating legacy systems with modern interfaces.
+* Supporting multiple third-party libraries.
