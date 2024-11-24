@@ -7,6 +7,7 @@ import 'package:design_patterns/adapter.dart';
 import 'package:design_patterns/factory.dart';
 import 'package:design_patterns/observer.dart';
 import 'package:design_patterns/strategy.dart';
+import 'package:design_patterns/template.dart';
 
 void main() {
 
@@ -102,4 +103,18 @@ void main() {
   player_state.setState(PausedState());  // Output: Music is Paused
   player_state.setState(StoppedState()); // Output: Music is Stopped
 
+
+  DataParser csvParser = CSVParser();
+  csvParser.parseData();
+  // Output:
+  // Reading data from source...
+  // Processing CSV data...
+  // Saving CSV data to database.
+
+  DataParser jsonParser = JSONParser();
+  jsonParser.parseData();
+  // Output:
+  // Reading data from source...
+  // Processing JSON data...
+  // Saving JSON data to database.
 }
