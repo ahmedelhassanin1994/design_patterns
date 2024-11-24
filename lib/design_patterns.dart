@@ -1,6 +1,7 @@
 
 // Client
 import 'package:design_patterns/Prototype.dart';
+import 'package:design_patterns/State.dart';
 import 'package:design_patterns/abstrcat_factory.dart';
 import 'package:design_patterns/adapter.dart';
 import 'package:design_patterns/factory.dart';
@@ -91,4 +92,14 @@ void main() {
   clone.width = 15.0;
   print("Modified Clone: $clone"); // Output: Modified Clone: Rectangle(width: 15.0, height: 20.0)
   print("Original remains: $original"); // Output: Original remains: Rectangle(width: 10.0, height: 20.0)
+
+
+  // state
+
+  MusicPlayer player_state = MusicPlayer();
+
+  player_state.setState(PlayingState()); // Output: Music is Playing
+  player_state.setState(PausedState());  // Output: Music is Paused
+  player_state.setState(StoppedState()); // Output: Music is Stopped
+
 }

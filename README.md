@@ -47,3 +47,10 @@ is a creational pattern that creates new objects by cloning an existing object, 
 Use Cases:
 * Copying objects with expensive initialization (e.g., large data structures).
 * Situations where object properties need to be copied.
+
+# State Design Pattern : 
+is a behavioral pattern that allows an object to change its behavior when its internal state changes. The object appears to change its class dynamically by delegating tasks to the current state.
+
+Use Cases:
+* Media players (e.g., play, pause, stop states).
+* Workflow systems (e.g., draft, review, publish states).
